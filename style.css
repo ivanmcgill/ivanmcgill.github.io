@@ -112,6 +112,8 @@ button:active {
     font-size: max(min(20px, 1.7vw), 16px);
     padding: 80px;
     box-sizing: content-box;
+    line-height: 150%;
+    letter-spacing: -0.25;
 }
 
 
