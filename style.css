@@ -8,9 +8,12 @@ img{
     max-width: 100%;
 }
 
+
+
 a:hover{
     cursor: url("/cursor.png"), pointer;
 }
+
 
 p a {
     position: relative;
@@ -99,6 +102,12 @@ button:active {
     margin-bottom: 24px;
 }
 
+.content p{
+    line-height: 150%;
+    letter-spacing: -0.25;
+    font-size: max(min(20px, 1.7vw), 16px);
+}
+
 .content p.subtitle{
     color: #828282;
     font-weight: normal;
@@ -109,11 +118,12 @@ button:active {
 .content p.body{
     max-width: 842px;
     margin: auto;
-    font-size: max(min(20px, 1.7vw), 16px);
+    
     padding-top: 80px;
     box-sizing: content-box;
     line-height: 150%;
     letter-spacing: -0.25;
+    font-size: max(min(20px, 1.7vw), 16px);
 }
 
 
