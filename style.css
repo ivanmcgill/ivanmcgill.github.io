@@ -110,7 +110,7 @@ button:active {
     max-width: 842px;
     margin: auto;
     font-size: max(min(20px, 1.7vw), 16px);
-    padding: 80px;
+    padding-top: 80px;
     box-sizing: content-box;
     line-height: 150%;
     letter-spacing: -0.25;
@@ -140,6 +140,10 @@ footer{
 
 /* Fluid gallery */
 
+.footnote{
+    color: #828282;
+    font-size: 12px;
+}
 
 .tz-gallery{
     margin-top: 30px;
@@ -147,6 +151,7 @@ footer{
 
 .tz-gallery .row{
     justify-content: center;
+    padding: 16px;
 }
 
 .tz-gallery .row > div {
@@ -154,14 +159,22 @@ footer{
     position: relative;
 }
 
+.tz-gallery .lightbox{
+    position: relative;
+    display: inline-block;
+}
+
 .tz-gallery .lightbox img {
     width: 100%;
     border-radius: 0;
     position: relative;
+    padding-bottom: 18px;
+    padding-top: 18px;
 }
 
 .tz-gallery-bckp .lightbox:before {
     position: absolute;
+
     top: 50%;
     left: 50%;
     margin-top: -13px;
