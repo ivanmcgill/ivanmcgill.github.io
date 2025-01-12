@@ -142,6 +142,8 @@ footer{
     position: relative;
     padding-top: 70px;
     padding-bottom: 160px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: #828282;
     font-size: 10pt;
 }
@@ -161,7 +163,6 @@ footer{
 
 .tz-gallery .row{
     justify-content: center;
-    padding: 16px;
 }
 
 .tz-gallery .row > div {
@@ -172,14 +173,14 @@ footer{
 .tz-gallery .lightbox{
     position: relative;
     display: inline-block;
+    margin: auto;
 }
 
 .tz-gallery .lightbox img {
     width: 100%;
     border-radius: 0;
     position: relative;
-    padding-bottom: 18px;
-    padding-top: 18px;
+    
 }
 
 .tz-gallery-bckp .lightbox:before {
